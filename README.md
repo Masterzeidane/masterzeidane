@@ -1,16 +1,3 @@
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Masterzeidane&show_icons=true&hide_title=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Masterzeidane" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Masterzeidane&layout=compact" width="40%" />
-</p># Hi, I'm Zidane 👋
-
-<p align="center">
-Final-year Software Engineering student at Taylor's University, Malaysia<br>
-Building full-stack and AI-integrated applications · Currently exploring Cloud & AI specialization
-</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/zidane-sheikh-607a1a366">
