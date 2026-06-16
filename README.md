@@ -1,6 +1,6 @@
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/zidane-sheikh-607a1a366">
+  <a href="https://https://www.linkedin.com/in/zidane-sheikh-607a1a366">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://https://github.com/Masterzeidane/masterzeidane">
