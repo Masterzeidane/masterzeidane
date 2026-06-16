@@ -1,9 +1,9 @@
 
 <p align="center">
-  <a href="https://https://www.linkedin.com/in/zidane-sheikh-607a1a366">
+  <a href="https://www.linkedin.com/in/zidane-sheikh-607a1a366">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://https://github.com/Masterzeidane/masterzeidane">
+  <a href="https://github.com/Masterzeidane/masterzeidane">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" />
   </a>
   <a href="mailto:cheikhndb575@gmail.com">
