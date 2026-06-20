@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zidane — Software Engineer</title>
+  <meta name="description" content="Zidane — final-year Software Engineering student building and shipping real software." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0E1116; --surface:#161B22; --border:#232A33;
+      --text:#E7EAEF; --muted:#9098A4;
+      --accent:#E0A95E; --accent-bright:#F0BE77;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{
+      background:var(--bg); color:var(--text);
+      font-family:'Inter',system-ui,sans-serif; line-height:1.6;
+      -webkit-font-smoothing:antialiased; padding:0 24px;
+    }
+    .wrap{max-width:680px; margin:0 auto; padding:96px 0 64px;}
+
+    .eyebrow{font-size:13px; letter-spacing:.14em; text-transform:uppercase;
+      color:var(--accent); font-weight:600; margin-bottom:18px;}
+    h1{font-family:'Fraunces',serif; font-weight:600;
+      font-size:clamp(44px,9vw,72px); line-height:1.04; letter-spacing:-.01em; margin-bottom:20px;}
+    h1 .dot{color:var(--accent);}
+    .tagline{font-size:clamp(17px,2.4vw,20px); max-width:36ch; margin-bottom:14px;}
+    .location{color:var(--muted); font-size:15px; margin-bottom:32px;}
+
+    .links{display:flex; flex-wrap:wrap; gap:12px;}
+    .btn{display:inline-flex; align-items:center; gap:8px; padding:11px 18px;
+      border-radius:10px; border:1px solid var(--border); background:var(--surface);
+      color:var(--text); text-decoration:none; font-size:15px; font-weight:500;
+      transition:border-color .2s ease, transform .2s ease, color .2s ease;}
+    .btn:hover{border-color:var(--accent); color:var(--accent-bright); transform:translateY(-2px);}
+    .btn.primary{background:var(--accent); color:#1a1206; border-color:var(--accent);}
+    .btn.primary:hover{background:var(--accent-bright); color:#1a1206;}
+
+    section{margin-top:72px;}
+    .label{font-size:13px; letter-spacing:.12em; text-transform:uppercase;
+      color:var(--muted); font-weight:600; margin-bottom:24px;}
+
+    .project{display:block; text-decoration:none; color:inherit;
+      border:1px solid var(--border); border-radius:14px; padding:22px 24px;
+      margin-bottom:14px; background:var(--surface);
+      transition:border-color .2s ease, transform .2s ease;}
+    .project:hover{border-color:var(--accent); transform:translateY(-2px);}
+    .project h3{font-family:'Fraunces',serif; font-weight:600; font-size:21px; margin-bottom:6px;}
+    .project p{color:var(--muted); font-size:15px; margin-bottom:14px;}
+    .tags{display:flex; flex-wrap:wrap; gap:8px;}
+    .tag{font-size:12.5px; font-weight:500; color:var(--accent);
+      background:rgba(224,169,94,.10); border:1px solid rgba(224,169,94,.22);
+      padding:4px 10px; border-radius:999px;}
+    .viewcode{display:inline-block; margin-top:14px; color:var(--accent);
+      font-size:14px; font-weight:500; text-decoration:none;}
+    .viewcode:hover{color:var(--accent-bright);}
+
+    footer{margin-top:80px; padding-top:28px; border-top:1px solid var(--border);
+      color:var(--muted); font-size:14px;}
+    footer .accent{color:var(--accent);}
+
+    @media (prefers-reduced-motion:no-preference){
+      .fade{opacity:0; transform:translateY(14px); animation:rise .7s ease forwards;}
+      .d1{animation-delay:.05s;} .d2{animation-delay:.15s;}
+      .d3{animation-delay:.25s;} .d4{animation-delay:.35s;}
+      @keyframes rise{to{opacity:1; transform:none;}}
+    }
+    a:focus-visible{outline:2px solid var(--accent); outline-offset:3px; border-radius:6px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="eyebrow fade d1">Software Engineer &middot; Builder</p>
+      <h1 class="fade d1">Zidane<span class="dot">.</span></h1>
+      <p class="tagline fade d2">Final-year Software Engineering student learning to build real software and ship it &mdash; not just write code, but get it into people's hands.</p>
+      <p class="location fade d2">Taylor's University, Malaysia &middot; from Mauritania 🇲🇷</p>
+      <div class="links fade d3">
+        <a class="btn primary" href="https://github.com/Masterzeidane">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/zidane-sheikh-607a1a366">LinkedIn</a>
+        <a class="btn" href="mailto:cheikhndb575@gmail.com">Email</a>
+      </div>
+    </header>
+
+    <section class="fade d4">
+      <p class="label">Projects</p>
+
+      <a class="project" href="https://github.com/Masterzeidane/CSC61204-QuizApp-MASTERS">
+        <h3>Quiz App</h3>
+        <p>A desktop quiz application built as a university group project, where I led the team.</p>
+        <div class="tags"><span class="tag">Java</span><span class="tag">Swing</span></div>
+        <span class="viewcode">View code &rarr;</span>
+      </a>
+
+      <div class="project">
+        <h3>Mawahib School Website</h3>
+        <p>A website designed and built for a real school.</p>
+        <div class="tags"><span class="tag">Next.js</span><span class="tag">Tailwind</span></div>
+      </div>
+
+      <div class="project">
+        <h3>NurHidayah Store</h3>
+        <p>An online store I set up and run end to end.</p>
+        <div class="tags"><span class="tag">Shopify</span><span class="tag">E-commerce</span></div>
+      </div>
+    </section>
+
+    <footer class="fade d4">
+      Building. Learning. Shipping &mdash; one real project at a time. <span class="accent">&bull;</span>
+    </footer>
+  </div>
+</body>
+</html>
